@@ -1,0 +1,28 @@
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database files (don't commit sensitive data)
+*.sql
+!database.sql
+
+# Temporary files
+*.tmp
+*.temp
