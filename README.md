@@ -21,21 +21,6 @@ A comprehensive movie database management system built with Java, JDBC, and MySQ
 - **Frontend**: HTML5, CSS3, JavaScript
 - **API**: RESTful endpoints
 
-## Project Structure
-
-moviedb/
-├── src/ # Java source files
-│ ├── WebServer.java # Main server and API handlers
-│ ├── DatabaseConnection.java
-│ ├── MovieDAO.java
-│ └── ...
-├── web/ # Frontend files
-│ ├── index.html # Main UI
-│ └── style.css
-├── lib/ # Dependencies
-│ └── mysql-connector-j-9.7.0.jar
-└── database.sql # Database schema
-
 
 ## Setup Instructions
 
