@@ -95,14 +95,14 @@ INSERT INTO genres (genre_name, description) VALUES
 ('Romance', 'Love and relationship stories'),
 ('Thriller', 'Suspenseful and exciting films');
 
--- Insert Directors
+
 INSERT INTO directors (director_name, date_of_birth, nationality) VALUES
 ('Christopher Nolan', '1970-07-30', 'British-American'),
 ('Steven Spielberg', '1946-12-18', 'American'),
 ('James Cameron', '1954-08-16', 'Canadian'),
 ('Greta Gerwig', '1983-08-04', 'American');
 
--- Insert Movies
+
 INSERT INTO movies (title, release_year, duration_minutes, language, genre_id, director_id) VALUES
 ('Inception', 2010, 148, 'English', 4, 1),
 ('The Dark Knight', 2008, 152, 'English', 1, 1),
@@ -111,7 +111,7 @@ INSERT INTO movies (title, release_year, duration_minutes, language, genre_id, d
 ('Little Women', 2019, 135, 'English', 6, 4),
 ('Interstellar', 2014, 169, 'English', 4, 1);
 
--- Insert Actors
+
 INSERT INTO actors (actor_name, date_of_birth, nationality) VALUES
 ('Leonardo DiCaprio', '1974-11-11', 'American'),
 ('Christian Bale', '1974-01-30', 'British'),
@@ -120,7 +120,7 @@ INSERT INTO actors (actor_name, date_of_birth, nationality) VALUES
 ('Saoirse Ronan', '1994-04-12', 'Irish'),
 ('Matthew McConaughey', '1969-11-04', 'American');
 
--- Link Movies to Actors
+
 INSERT INTO movie_actors (movie_id, actor_id, role_name) VALUES
 (1, 1, 'Dom Cobb'),
 (2, 2, 'Bruce Wayne'),
@@ -130,7 +130,7 @@ INSERT INTO movie_actors (movie_id, actor_id, role_name) VALUES
 (5, 5, 'Jo March'),
 (6, 6, 'Cooper');
 
--- Insert Sample Reviews
+
 INSERT INTO reviews (movie_id, reviewer_name, rating, review_text) VALUES
 (1, 'John Doe', 9.5, 'Mind-blowing masterpiece!'),
 (1, 'Jane Smith', 9.0, 'Incredible visuals and story'),
